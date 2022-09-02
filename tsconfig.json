@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "lib": ["es2020.string", "es2019.array"],
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./build",
+    "removeComments": true,
+    "rootDir": "./src",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules/**/*",
+    ".vscode/**/*"
+  ]
+}
